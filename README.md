@@ -29,4 +29,4 @@ The website uses Bootstrap for responsive design and includes CSS customizations
 
  # OUTPUT
 
-![Image](https://github.com/user-attachments/assets/eb7a8dca-f4d7-4375-bfd4-7b50b5ab3219)
+![Image](https://github.com/user-attachments/assets/32090050-cabf-4d5c-8997-5346b2dbaec9)
