@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balamurugan's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="bi bi-bootstrap icon-size"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#about">About me</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#projects">Testimonials</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center bg-primary text-white">
+        <h1 class="display-3">Hello, I'm Balamurugan</h1>
+        <p class="lead">Web Developer | UI/UX Enthusiast</p>
+        <a href="#contact" class="btn btn-light">Get in Touch</a>
+    </header>
+
+    <section class="about-section container py-5">
+        <h2 class="text-center pb-3">About Me</h2>
+        <p class="text-justify">I am Balamurugan, a passionate third-year B.Tech IT student at R.P. Saathi Institute of Technology. My interests span web development, UI/UX design, and data science. I enjoy creating impactful projects and inspiring others through continuous learning and adaptation. With a background in graphic design and fitness, I stay motivated and bring creativity to everything I do.</p>
+    </section>
+
+    <section class="projects bg-light py-5">
+        <div class="container">
+            <h2 class="text-center pb-3">Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">AI Gesture Detector</h5>
+                            <p class="card-text">An AI model built using Teachable Machines to detect stone-paper-scissors hand gestures.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Courts MVP</h5>
+                            <p class="card-text">Developed an MVP for badminton courts with real-time analytics and user engagement tracking.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center pb-3">Contact Me</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer text-center py-3 bg-dark text-white">
+        <p>&copy; 2025 Balamurugan. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
